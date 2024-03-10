@@ -5,12 +5,11 @@ export default function BookList() {
    let book3 = "https://m.media-amazon.com/images/I/71ZdvpJTYbL._SY522_.jpg";
 
    return (
-      <div >
-         <h3 style={{color:"blue", textDecoration:"underline" , fontStyle:"italic"}}>{pageTitle} </h3>
+      <div style={{border: "2px solid #ccc", padding: "10px"}}>
+         <h3 style={{color:"black", textDecoration:"underline" , fontStyle:"italic"}}>{pageTitle} </h3>
          <img src={book1} alt="SUDHA MURTHY- Here there and everywhere!!" width= "100" height="200"/>
          <img src={book2} alt="A.P.J.ABDUL KALAM-Learning How to Fly!!"  width= "190" height="230"/>
          <img src={book3} alt="Dr. RANGAN CHATTERJEE-Happy Mind Happy Life!!"  width= "100" height="200" />
-       
       </div>      
    );
 }
