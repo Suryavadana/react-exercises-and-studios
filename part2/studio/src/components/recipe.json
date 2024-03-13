@@ -1,18 +1,12 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
-     "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
-     ]
+     "name": "Annavaram Prasadam",
+     "author": "TEJA PARUCHURI",
+     "description": "Satyanarayana Swamy is the Lord of the bountiful and it is considered auspicious to perform a special Puja for Him for prosperity, protection and peace.",
+     "website": "https://vismaifood.com/en/annavaram-prasadam-recipe-real-annavaram-prasadam-recipe-sri-swamy-vari-prasadam-how-to-make-annavaram-prasadam",
+     "recipeImage": "https://vismaifood.com/storage/app/uploads/public/9f5/78d/500/thumb__700_0_0_0_auto.jpg",
+     "authorImage": "https://media.assettype.com/TNIE%2Fimport%2Fuploads%2Fuser%2Fckeditor_images%2Farticle%2F2020%2F6%2F16%2FPuttinga.jpg",
+     "ingredients":["Red Wheat Semolinao","Sugar","Ghee","Grated Raw Grated Jaggery","Cardamoms"]
    }
  ]
  

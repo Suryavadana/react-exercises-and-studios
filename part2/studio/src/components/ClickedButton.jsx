@@ -1,5 +1,15 @@
+import React from 'react'
+import './styling.css';
 function ClickedButton() {
-  return;
+  const handleClick = () => {
+    alert('You have already saved this pin!');
+  };
+
+  return (
+    <button className="button" onClick={handleClick}>
+      Saved
+    </button>
+  );
 }
 
 export default ClickedButton;
