@@ -6,9 +6,9 @@ function ClickedButton() {
   };
 
   return (
-    <button className="button" onClick={handleClick}>
-      Saved
-    </button>
+    <button id="clickedButton" onClick={handleClick}>
+    Saved
+  </button>
   );
 }
 

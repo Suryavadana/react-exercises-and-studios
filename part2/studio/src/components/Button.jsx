@@ -6,6 +6,7 @@ import './styling.css';
 function Button(props) {
   // If saveButton is true, render SaveButton, else render ClickedButton
   return(
+    
   <div>
     {props.saveButton ? <SaveButton /> : <ClickedButton />}
   </div>

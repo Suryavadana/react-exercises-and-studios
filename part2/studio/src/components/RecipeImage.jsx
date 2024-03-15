@@ -2,14 +2,13 @@ import React from "react";
 import recipedata from './recipe.json';
 
 function RecipeImage() {
-  const recipeImageURL = recipedata[0].recipeImage; 
-   return
-   (
-   <div>
-    <img src={recipeImageURL} alt={recipedata[0].name} className="recipeImage" />
+  const recipeImageURL = recipedata.map((data)=>( 
+  <div key = {data.recipeImage}>
+    <img key ={data.recipeImage} src={data.recipeImage}></img>
   </div>
-  );
- }
+  ))
+  return recipeImageURL;
+   }
  
  export default RecipeImage;
  
