@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://vismaifood.com/en/annavaram-prasadam-recipe-real-annavaram-prasadam-recipe-sri-swamy-vari-prasadam-how-to-make-annavaram-prasadam";
+   let authorPhoto = "https://media.assettype.com/TNIE%2Fimport%2Fuploads%2Fuser%2Fckeditor_images%2Farticle%2F2020%2F6%2F16%2FPuttinga.jpg";
+   let authorName = "Teja Paruchuri";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Red Wheat Semolinao","Sugar","Ghee","Grated Raw Grated Jaggery","Cardamoms"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,9 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Annavaram Prasadam</h1>
+            <p>Satyanarayana Swamy is the Lord of the bountiful and it is considered auspicious to 
+                perform a special Puja for Him for prosperity, protection and peace.</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +50,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://vismaifood.com/storage/app/uploads/public/9f5/78d/500/thumb__700_0_0_0_auto.jpg" alt="vismai food" className="imageUpdates"/>
    );
 }
 
